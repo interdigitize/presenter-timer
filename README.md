@@ -1,7 +1,7 @@
 # presenter-timer
 
-Reason for this project:
-For work I need a way to let event presenters know how much time they have left. There are several solutions (PowerPoint, LED digital clocks, Stoplight lights, Apps...) but I have not found anything that meets all the criteria I am looking at. The closest is Google's timer that pops up in search results if you Google "create a countdown timer." 
+###Reason for this project:
+For work I need a way to let event presenters know how much time they have left. There are several solutions (PowerPoint, LED digital clocks, Stoplight lights, Apps...) but I have not found anything that meets all the criteria I am looking at. The closest is Google's timer that pops up in search results if you Google "create a countdown timer."
 
 ###What I like about Google's timer:
 - It is simple and feels modern.
@@ -15,4 +15,4 @@ For work I need a way to let event presenters know how much time they have left.
 - Make it a standalone web app so I don't have to constantly search it
 
 ###If I have time:
-- Record the difference between when the timer ends and the speaker wraps up. 
+- Record the difference between when the timer ends and the speaker wraps up.
