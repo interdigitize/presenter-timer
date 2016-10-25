@@ -1,30 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
+    <!-- <meta name="description" content=""> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
-    <h1>Countdown Clock</h1>
-    <div id="clockdiv">
-        <!-- <div>
-          <span class="days"></span>
-          <div class="smalltext">Days</div>
+    <div class="mdl-layout mdl-js-layout">
+      <main class="mdl-layout__content content">
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+            <label class="mdl-textfield__label" for="sample2">Number...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <div class="mdl-grid">
+          <div id="clockdiv" class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
+            <div class="timesection">
+              <div class="smalltext">Minutes</div>
+              <span class="minutes largetext"></span>
+            </div>
+            <div class="timesection">
+              <div class="largetext">:</div>
+            </div>
+            <div class="timesection">
+              <div class="smalltext">Seconds</div>
+              <span class="seconds largetext"></span>
+            </div>
+          </div>
+          <!-- <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
+            <div id="p1" class="mdl-progress mdl-js-progress center"></div>
+          </div> -->
         </div>
-        <div>
-        <span class="hours"></span>
-        <div class="smalltext">Hours</div>
-      </div> -->
-      <div>
-        <span class="minutes"></span>
-        <div class="smalltext">Minutes</div>
-      </div>
-      <div>
-        <span class="seconds"></span>
-        <div class="smalltext">Seconds</div>
-      </div>
+      </main>
     </div>
 
+  <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
   <script type="text/javascript" src="js/timer.js"></script>
   </body>
 </html>

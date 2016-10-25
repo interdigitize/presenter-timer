@@ -1,0 +1,26 @@
+.content{
+  margin:0 auto;
+  max-width: 1024px;
+  text-align: center;
+}
+h1{
+  font-family: sans-serif;
+}
+
+.center{
+  text-align: center;
+  margin:0 auto;
+}
+
+.largetext {
+  font-size: 10em;
+  line-height: 1.5em;
+}
+
+.timesection{
+  display:inline-block;
+}
+
+.smalltext{
+  font-size: 1em;
+}
